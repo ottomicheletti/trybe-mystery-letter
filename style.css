@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 60vw;
+  height: fit-content;
+  border: 2px red solid;
+  margin: 1em auto;
+}
+
+#inputs {
+  text-align: center;
+  margin: 0 auto;
+}
+
+#carta-texto {
+  padding: 0.3em;
+  width: 60%;
+}
+
+#criar-carta {
+  height: 2em;
+  width: fit-content;
+  padding: 0.2em;
+}
+
+p {
+  margin: 0.5em;
+}
+
+span {
+  margin: auto 0.2em;
+}
