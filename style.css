@@ -28,10 +28,16 @@ main {
 
 p {
   margin: 0.5em;
+  padding: 2em;
+  height: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 span {
-  margin: auto 0.2em;
+  margin: 0.5em;
+  text-align: center;
 }
 
 /* Requisitos do 6 ao 15 */
