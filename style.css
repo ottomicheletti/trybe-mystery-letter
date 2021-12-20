@@ -3,41 +3,94 @@
   padding: 0;
 }
 
+body {
+  background-color: #457b9d;
+}
+
 main {
-  width: 60vw;
+  background-color: #f1faee;
+  width: 70vw;
   height: fit-content;
-  border: 2px red solid;
   margin: 1em auto;
+  padding: 0.5em;
+  border-radius: 15px;
+  box-shadow: 0px 0px 5px #000000;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Rock 3D', cursive;
+  margin: 0.5em auto;
+  color: #e63946;
+}
+
+input,
+button,
+p,
+span {
+  font-family: 'Roboto', sans-serif;
 }
 
 #inputs {
-  text-align: center;
+  width: 100%;
   margin: 0 auto;
+  display: inline-flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
 }
 
 #carta-texto {
-  padding: 0.3em;
+  height: 2em;
   width: 60%;
+  padding: 0.2em;
+  border: 2px #1d3557 solid;
+  border-radius: 5px;
 }
 
 #criar-carta {
   height: 2em;
   width: fit-content;
   padding: 0.2em;
+  background-color: #1d3557;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #f1faee;
+  font-size: large;
+  font-weight: bold;
 }
 
 p {
+  height: fit-content;
   margin: 0.5em;
   padding: 2em;
-  height: fit-content;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 span {
   margin: 0.5em;
+  height: fit-content;
   text-align: center;
+}
+
+#contador {
+  margin: 0.5em auto;
+  background-color: #e63946;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+}
+
+#carta-contador {
+  font-weight: bolder;
+  font-size: x-large;
+  color: #f1faee;
 }
 
 /* Requisitos do 6 ao 15 */
